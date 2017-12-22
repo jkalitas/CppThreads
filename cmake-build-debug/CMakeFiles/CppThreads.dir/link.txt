@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -std=c++11 -O3 -fPIC -lpthread -g   CMakeFiles/CppThreads.dir/main.cpp.o  -o CppThreads -lpthread 

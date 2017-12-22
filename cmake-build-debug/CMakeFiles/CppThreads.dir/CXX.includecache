@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jsilva/sandbox/CppThreads/FooClass.h
+thread
+-
+iostream
+-
+
+/home/jsilva/sandbox/CppThreads/FooClass1.h
+iostream
+-
+thread
+-
+
+/home/jsilva/sandbox/CppThreads/main.cpp
+iostream
+-
+thread
+-
+FooClass.h
+/home/jsilva/sandbox/CppThreads/FooClass.h
+FooClass1.h
+/home/jsilva/sandbox/CppThreads/FooClass1.h
+

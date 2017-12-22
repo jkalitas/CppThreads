@@ -1,0 +1,4 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jsilva/sandbox/CppThreads
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jsilva/sandbox/CppThreads/cmake-build-debug
